@@ -1,0 +1,97 @@
+/* Estilos generales */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /* Para que el padding y el borde no afecten al ancho y alto del elemento */
+    
+  }
+  
+  
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 5px;
+    padding: 0px;
+    min-height: 100px;
+    background-color: #000000;
+    color: #9ad79b; 
+    width: 1400px;
+    margin-left: 50px;
+    border: solid 1px hsl(122, 80%, 18%);
+    
+  }
+
+  header {
+    position: fixed;
+    border:ridge 11px #9ad79b; 
+    top: 0px;
+    width: 1400px; 
+    background-color: #000000; 
+    z-index: 1000;
+    text-align: justify;
+    left: 50px;
+    right: 50px;
+    padding: 6px;
+  }
+
+  button{
+    margin: 6px;
+  }
+
+  main .content{
+    padding: 6px;
+    margin-top: 150px;
+    color: #9ad79b;
+    background-color: rgb(0, 0, 0);
+    border:ridge 11px #9ad79b;
+    width: 100%;
+    
+    
+  }
+
+  body aside{
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    border:ridge 11px #9ad79b;
+    width: 150px;
+    padding: 1px;
+  }
+
+  body  aside ul{
+  color: #9ad79b;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  padding-left: 20px;
+  }
+  body aside h3{
+    text-align: center;
+    border-bottom: solid 1px #9ad79b;
+  }
+
+  body section.content{
+    margin-top: 150px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+    border:ridge 11px #9ad79b;
+
+  }
+  body section.features{
+    margin-top: 300px;
+    border:ridge 11px #d79a9a;
+    text-align: center;
+    margin-bottom: 200px;
+
+  }
+ 
+  footer {
+    position: absolute;
+    border: ridge 11px #9ad79b;
+    width: 1400px;
+    background-color: #000000;
+    text-align: center;
+    left: 50px;
+    right: 50px;
+    padding: 6px;
+  }
